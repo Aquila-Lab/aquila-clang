@@ -7,7 +7,7 @@ OUTPUT_FORMAT("elf32-bigarm", "elf32-bigarm",
 	      "elf32-littlearm")
 OUTPUT_ARCH(arm)
 ENTRY(_start)
-SEARCH_DIR("/root/works/tc-build/install/arm-linux-gnueabi/lib");
+SEARCH_DIR("/root/build/binutils/arm-linux-gnueabi/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */
